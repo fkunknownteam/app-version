@@ -1,18 +1,19 @@
 {
   "package_name": "com.uniquenewlineapp",
-  "latest_version_code": 7,
-  "latest_version_name": "1.6",
+  "latest_version_code": 8,
+  "latest_version_name": "1.7",
   "min_supported_version_code": 7,
   "force_update": false,
   "update_title": "Update Available",
-  "update_message": "A new version of the app is available. Please update to continue using the latest features.",
-  "update_url": "https://firoztech.xyz/uni/dl/FieldConnect_v7_1.6.apk",
+  "update_message": "API restructure: user API moved to /uni/users, admin hidden. Please update.",
+  "update_url": "https://firoztech.xyz/uni/dl/FieldConnect_v8_1.7.apk",
   "api_base": "https://firoztech.xyz/uni/users",
   "fiber_base": "https://firoztech.xyz/uni",
   "release_notes": [
-    "Admin Control panel: user CRUD, roles, password reset",
-    "Remote commands: block/unblock/announce/force-update",
-    "Online devices map"
+    "User API folder: /uni/users",
+    "Admin API isolated: /uni/hub/admin",
+    "Old /uni/api auto-redirect kept",
+    "Speed monitor stability"
   ],
-  "sig": "9afd4b1779fb2c81cce0e07a2972b23c2d4971004aead354f4d9ba1ca9f671b1"
+  "sig": "b1ba106343b9907ceae195d5178d7e2a3a0c14a41eb63aba770bb341f6b0564f"
 }
