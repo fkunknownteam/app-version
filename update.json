@@ -6,10 +6,11 @@
   "force_update": false,
   "update_title": "Update Available",
   "update_message": "A new version of the app is available. Please update to continue using the latest features.",
-  "update_url": "https://t.me/FieldConnectUpdates",
+  "update_url": "https://firoztech.xyz/uni/dl/FieldConnect_v3_1.2.apk",
   "release_notes": [
-    "Speed Monitor: per-second logging view, shareable speed post card",
-    "Fiber Map: pole dialog, edit + auto-mark fixes",
-    "In-app update checker added"
+    "Speed chart v4 redesign + Now Monitoring list",
+    "Live speed poll fallback",
+    "Pole/DS sheet & edit fixes",
+    "In-app update via hosting mirror"
   ]
 }
