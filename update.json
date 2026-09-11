@@ -7,7 +7,7 @@
   "update_title": "Update Available",
   "update_message": "A new version of the app is available. Please update to continue using the latest features.",
   "update_url": "https://firoztech.xyz/uni/dl/FieldConnect_v7_1.6.apk",
-  "api_base": "https://firoztech.xyz/uni/api",
+  "api_base": "https://firoztech.xyz/uni/users",
   "fiber_base": "https://firoztech.xyz/uni",
   "release_notes": [
     "Admin Control panel: user CRUD, roles, password reset",
