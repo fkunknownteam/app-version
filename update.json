@@ -12,5 +12,7 @@
     "Live speed poll fallback",
     "Pole/DS sheet & edit fixes",
     "In-app update via hosting mirror"
-  ]
+  ],
+  "api_base": "https://uni.firoztech.xyz/api",
+  "fiber_base": "https://firoztech.xyz/uni"
 }
