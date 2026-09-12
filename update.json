@@ -1,18 +1,17 @@
 {
   "package_name": "com.uniquenewlineapp",
-  "latest_version_code": 25,
-  "latest_version_name": "1.24",
+  "latest_version_code": 26,
+  "latest_version_name": "1.25",
   "min_supported_version_code": 8,
   "force_update": false,
   "update_title": "Update Available",
-  "update_message": "Stock items now show units (fiber in meters).",
-  "update_url": "https://firoztech.xyz/uni/dl/FieldConnect_v25_1.24.apk",
+  "update_message": "New Connectivity form redesigned with section cards.",
+  "update_url": "https://firoztech.xyz/uni/dl/FieldConnect_v26_1.25.apk",
   "api_base": "https://firoztech.xyz/uni/hub/users",
   "fiber_base": "https://firoztech.xyz/uni",
   "release_notes": [
-    "Stock: last update as 'just now / 5 min ago / 3 hr ago' relative time",
-    "RegPage: form auto-clears 60s after share",
-    "Official FieldConnect adaptive icon"
+    "New Connectivity page: brand header, 3 grouped cards, cleaner fields",
+    "Stock stays numeric-only (unit feature reverted)"
   ],
-  "sig": "572aa12b1b09aa906bd30156f22e05bf5d48b08691d96c975dd84a540c1d46c6"
+  "sig": "49baa5c271ac67dd4eeb799496c429cc76dd14f6bb6d6606707bf6ac177f696f"
 }
