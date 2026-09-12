@@ -1,17 +1,18 @@
 {
   "package_name": "com.uniquenewlineapp",
-  "latest_version_code": 28,
-  "latest_version_name": "1.27",
+  "latest_version_code": 29,
+  "latest_version_name": "1.28",
   "min_supported_version_code": 8,
   "force_update": false,
   "update_title": "Update Available",
-  "update_message": "New Connectivity: auto fields locked read-only again.",
-  "update_url": "https://firoztech.xyz/uni/dl/FieldConnect_v28_1.27.apk",
+  "update_message": "Offline list: recovered users pulse green for 5s with BACK ONLINE tag.",
+  "update_url": "https://firoztech.xyz/uni/dl/FieldConnect_v29_1.28.apk",
   "api_base": "https://firoztech.xyz/uni/hub/users",
   "fiber_base": "https://firoztech.xyz/uni",
   "release_notes": [
-    "New Connectivity: 16 auto-filled fields (name/login/MAC/VLAN/package/team…) are read-only again — only DS Info & Used Items editable",
-    "Fixes regression from redesign"
+    "Offline users: an offline→online recovery now stays in place and pulses bright green for exactly 5s with '↗ BACK ONLINE'",
+    "Row pops in with scale bounce; disappears after window",
+    "Position stays stable — no jump-to-top confusion"
   ],
-  "sig": "f82fffcc216be8f62959864a242d3728c6480582798d12d33ffade1576147491"
+  "sig": "83abc4b92e5ae345732fef3ad8c6345252bec70bca6bb23b111ac70a66ee27ab"
 }
