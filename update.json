@@ -1,17 +1,19 @@
 {
   "package_name": "com.uniquenewlineapp",
-  "latest_version_code": 33,
-  "latest_version_name": "1.32",
+  "latest_version_code": 34,
+  "latest_version_name": "1.33",
   "min_supported_version_code": 8,
   "force_update": false,
   "update_title": "Update Available",
-  "update_message": "Offline monitor reverted to clean auto-scroll version (no badges/haptics/toasts).",
-  "update_url": "https://firoztech.xyz/uni/dl/FieldConnect_v33_1.32.apk",
+  "update_message": "Live FCM push (instant notifications), toast removed, update dialog restyled.",
+  "update_url": "https://firoztech.xyz/uni/dl/FieldConnect_v34_1.33.apk",
   "api_base": "https://firoztech.xyz/uni/hub/users",
   "fiber_base": "https://firoztech.xyz/uni",
   "release_notes": [
-    "Restored v1.30 offline monitor behavior: auto-scroll to top on new offline + red flash",
-    "Removed: NEW OFFLINE countdown badge, haptic buzz, toast, stat pop"
+    "Notifications are now LIVE via FCM — admin broadcasts arrive instantly, even app-closed",
+    "No more toast overlays — notification drawer only",
+    "Update dialog: brand gradient button, pop-in animation, clean title",
+    "FCM device token auto-registers on app start and login"
   ],
-  "sig": "991eed9dc430d73c9a9d6fed97b1540fc8d56f2b8d4db4219f4c52039ddf1ccb"
+  "sig": "24ebbed59a827520e224f3fa50681f1add2104f98d3d74ce0ace2c59d89362a8"
 }
