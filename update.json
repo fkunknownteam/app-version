@@ -1,17 +1,17 @@
 {
   "package_name": "com.uniquenewlineapp",
-  "latest_version_code": 26,
-  "latest_version_name": "1.25",
+  "latest_version_code": 27,
+  "latest_version_name": "1.26",
   "min_supported_version_code": 8,
   "force_update": false,
   "update_title": "Update Available",
-  "update_message": "New Connectivity form redesigned with section cards.",
-  "update_url": "https://firoztech.xyz/uni/dl/FieldConnect_v26_1.25.apk",
+  "update_message": "New Connectivity page now matches New Line style.",
+  "update_url": "https://firoztech.xyz/uni/dl/FieldConnect_v27_1.26.apk",
   "api_base": "https://firoztech.xyz/uni/hub/users",
   "fiber_base": "https://firoztech.xyz/uni",
   "release_notes": [
-    "New Connectivity page: brand header, 3 grouped cards, cleaner fields",
-    "Stock stays numeric-only (unit feature reverted)"
+    "New Connectivity: reg-page style — 3 section cards, outlined fields, brand header",
+    "Same data, same fields — just matching design"
   ],
-  "sig": "49baa5c271ac67dd4eeb799496c429cc76dd14f6bb6d6606707bf6ac177f696f"
+  "sig": "0b9e7317424722e83fc6b093c662fd3791c9c77e0b8475721cf6ceef58212d7b"
 }
