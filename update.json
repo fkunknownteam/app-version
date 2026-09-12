@@ -1,18 +1,17 @@
 {
   "package_name": "com.uniquenewlineapp",
-  "latest_version_code": 35,
-  "latest_version_name": "1.34",
+  "latest_version_code": 36,
+  "latest_version_name": "1.35",
   "min_supported_version_code": 8,
   "force_update": false,
   "update_title": "Update Available",
-  "update_message": "Duplicate notification fix: each alert shows exactly once.",
-  "update_url": "https://firoztech.xyz/uni/dl/FieldConnect_v35_1.34.apk",
+  "update_message": "New update-dialog style — brand gradient button, pop-in animation, clean title.",
+  "update_url": "https://firoztech.xyz/uni/dl/FieldConnect_v36_1.35.apk",
   "api_base": "https://firoztech.xyz/uni/hub/users",
   "fiber_base": "https://firoztech.xyz/uni",
   "release_notes": [
-    "Fixed: same notification repeating again and again (FCM + heartbeat double-delivery race)",
-    "Server now delivers each command exactly once; client dedup by cmd id as second lock",
-    "Announce/notify show one time only"
+    "See the redesigned Update dialog style 😎",
+    "Same fixes: dedup notifications, live FCM, no toasts"
   ],
-  "sig": "3a2915513055eea77cbac6e106f44ac9b779c8959660cbb46b831ae83e6c5b76"
+  "sig": "78937127f222c673fcdf3ba30d6a5804f8e7dec7d74bf85a1f1dc9b9ed2767fe"
 }
