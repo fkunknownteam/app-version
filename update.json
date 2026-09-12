@@ -1,18 +1,17 @@
 {
   "package_name": "com.uniquenewlineapp",
-  "latest_version_code": 29,
-  "latest_version_name": "1.28",
+  "latest_version_code": 30,
+  "latest_version_name": "1.29",
   "min_supported_version_code": 8,
   "force_update": false,
   "update_title": "Update Available",
-  "update_message": "Offline list: recovered users pulse green for 5s with BACK ONLINE tag.",
-  "update_url": "https://firoztech.xyz/uni/dl/FieldConnect_v29_1.28.apk",
+  "update_message": "Offline monitor: floating 'N new offline' alert while scrolled down.",
+  "update_url": "https://firoztech.xyz/uni/dl/FieldConnect_v30_1.29.apk",
   "api_base": "https://firoztech.xyz/uni/hub/users",
   "fiber_base": "https://firoztech.xyz/uni",
   "release_notes": [
-    "Offline users: an offline→online recovery now stays in place and pulses bright green for exactly 5s with '↗ BACK ONLINE'",
-    "Row pops in with scale bounce; disappears after window",
-    "Position stays stable — no jump-to-top confusion"
+    "Offline users: when new offline rows arrive above while you are scrolled down, a red pill shows '↑ N new offline' — tap to jump to top",
+    "Scrolling to the top clears the counter automatically"
   ],
-  "sig": "83abc4b92e5ae345732fef3ad8c6345252bec70bca6bb23b111ac70a66ee27ab"
+  "sig": "cf9447f795bc3ae6f1f44175db1698a5c249d19c205f52b0feaf16a6df98e199"
 }
