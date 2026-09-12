@@ -1,17 +1,17 @@
 {
   "package_name": "com.uniquenewlineapp",
-  "latest_version_code": 27,
-  "latest_version_name": "1.26",
+  "latest_version_code": 28,
+  "latest_version_name": "1.27",
   "min_supported_version_code": 8,
   "force_update": false,
   "update_title": "Update Available",
-  "update_message": "New Connectivity page now matches New Line style.",
-  "update_url": "https://firoztech.xyz/uni/dl/FieldConnect_v27_1.26.apk",
+  "update_message": "New Connectivity: auto fields locked read-only again.",
+  "update_url": "https://firoztech.xyz/uni/dl/FieldConnect_v28_1.27.apk",
   "api_base": "https://firoztech.xyz/uni/hub/users",
   "fiber_base": "https://firoztech.xyz/uni",
   "release_notes": [
-    "New Connectivity: reg-page style — 3 section cards, outlined fields, brand header",
-    "Same data, same fields — just matching design"
+    "New Connectivity: 16 auto-filled fields (name/login/MAC/VLAN/package/team…) are read-only again — only DS Info & Used Items editable",
+    "Fixes regression from redesign"
   ],
-  "sig": "0b9e7317424722e83fc6b093c662fd3791c9c77e0b8475721cf6ceef58212d7b"
+  "sig": "f82fffcc216be8f62959864a242d3728c6480582798d12d33ffade1576147491"
 }
