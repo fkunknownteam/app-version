@@ -1,20 +1,19 @@
 {
   "package_name": "com.uniquenewlineapp",
-  "latest_version_code": 37,
-  "latest_version_name": "1.36",
+  "latest_version_code": 38,
+  "latest_version_name": "1.37",
   "min_supported_version_code": 8,
   "force_update": false,
   "update_title": "Update Available",
-  "update_message": "In-app updater: download + install right inside the dialog, no browser.",
-  "update_url": "https://firoztech.xyz/uni/dl/FieldConnect_v37_1.36.apk",
+  "update_message": "Demo of the new in-app updater — press Update Now to watch it work.",
+  "update_url": "https://firoztech.xyz/uni/dl/FieldConnect_v38_1.37.apk",
   "api_base": "https://firoztech.xyz/uni/hub/users",
   "fiber_base": "https://firoztech.xyz/uni",
   "release_notes": [
-    "Professional update dialog: current→new version + APK size line, teal icon accents",
-    "In-app update — Update Now downloads with live % progress and launches installer directly",
-    "Browser fallback only if download fails",
-    "Bottom overlap fixed: force notice moved above buttons"
+    "Try it: Update Now downloads with live % bar, then opens installer directly",
+    "Dialog shows current v1.36 \\u2192 v1.37 + size",
+    "Everything from v1.36 included"
   ],
-  "sig": "13d2054ffd499443513979dea8aeb2f82c75384823c17590ef8c38b5efdf2a1c",
-  "apk_size_bytes": 34350872
+  "sig": "012a306924d03e8095c669835fc92cbfe269315ef084bf669ab99a8d12b3780e",
+  "apk_size_bytes": 34350877
 }
