@@ -1,17 +1,18 @@
 {
   "package_name": "com.uniquenewlineapp",
-  "latest_version_code": 24,
-  "latest_version_name": "1.23",
+  "latest_version_code": 25,
+  "latest_version_name": "1.24",
   "min_supported_version_code": 8,
   "force_update": false,
   "update_title": "Update Available",
-  "update_message": "Stock page now shows friendly relative last-update times.",
-  "update_url": "https://firoztech.xyz/uni/dl/FieldConnect_v24_1.23.apk",
+  "update_message": "Stock items now show units (fiber in meters).",
+  "update_url": "https://firoztech.xyz/uni/dl/FieldConnect_v25_1.24.apk",
   "api_base": "https://firoztech.xyz/uni/hub/users",
   "fiber_base": "https://firoztech.xyz/uni",
   "release_notes": [
-    "Stock: just now / 5 min ago / 3 hr ago / yesterday / 4 days ago / 2 weeks ago",
-    "Dhaka-timezone accurate, raw time fallback"
+    "Stock: per-item unit — 2F/4F Fiber & Sleeve = m, TJ/patch = pc, alcohol = box",
+    "Add-item dialog: custom unit field",
+    "Server stock_api v2 (unit column, auto-defaults)"
   ],
-  "sig": "2acd29cca0021c1d584eb30d384a0c6a9b4547d192b53fee65ed51fe052c0dfd"
+  "sig": "bdfc43196d2aa34f8dff6fa69e6a15e0186ed699d8a8f00d66047d205061b97a"
 }
