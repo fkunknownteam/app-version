@@ -1,18 +1,17 @@
 {
   "package_name": "com.uniquenewlineapp",
-  "latest_version_code": 23,
-  "latest_version_name": "1.22",
+  "latest_version_code": 24,
+  "latest_version_name": "1.23",
   "min_supported_version_code": 8,
   "force_update": false,
   "update_title": "Update Available",
-  "update_message": "New-line form now auto-clears 60s after share.",
-  "update_url": "https://firoztech.xyz/uni/dl/FieldConnect_v23_1.22.apk",
+  "update_message": "Stock page now shows friendly relative last-update times.",
+  "update_url": "https://firoztech.xyz/uni/dl/FieldConnect_v24_1.23.apk",
   "api_base": "https://firoztech.xyz/uni/hub/users",
   "fiber_base": "https://firoztech.xyz/uni",
   "release_notes": [
-    "RegPage: form auto-clears after 60s editing window",
-    "Timer survives page-close: overdue clear fires on next open",
-    "✓Complete in Reports still clears instantly"
+    "Stock: just now / 5 min ago / 3 hr ago / yesterday / 4 days ago / 2 weeks ago",
+    "Dhaka-timezone accurate, raw time fallback"
   ],
-  "sig": "b8d0609070dbccabba1543ffce87388ed820e2336b2af87838d97ba442b19189"
+  "sig": "2acd29cca0021c1d584eb30d384a0c6a9b4547d192b53fee65ed51fe052c0dfd"
 }
