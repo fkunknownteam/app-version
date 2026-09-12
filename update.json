@@ -1,18 +1,18 @@
 {
   "package_name": "com.uniquenewlineapp",
-  "latest_version_code": 16,
-  "latest_version_name": "1.15",
+  "latest_version_code": 17,
+  "latest_version_name": "1.16",
   "min_supported_version_code": 8,
   "force_update": false,
   "update_title": "Update Available",
-  "update_message": "New lock screen. No more battery/background permission prompts.",
-  "update_url": "https://firoztech.xyz/uni/dl/FieldConnect_v16_1.15.apk",
+  "update_message": "New suspended-screen design with custom icon.",
+  "update_url": "https://firoztech.xyz/uni/dl/FieldConnect_v17_1.16.apk",
   "api_base": "https://firoztech.xyz/uni/hub/users",
   "fiber_base": "https://firoztech.xyz/uni",
   "release_notes": [
-    "Removed battery-optimization & foreground-service prompts",
-    "Dedicated SUSPENDED lock screen (reason card, live check, auto-unlock)",
-    "FCM push stays primary channel"
+    "Custom padlock icon + breathing glow ring",
+    "No timing text — clean waiting pill",
+    "Reason card refresh + entrance animation"
   ],
-  "sig": "e24869ff47e199cb0d1973596b8823f314c52100cecac09b26f4448b3c88205c"
+  "sig": "2529ed0bb4ce934262190c804d10b5765a3565d4c13135feb5a7eeb7ae2e55b7"
 }
