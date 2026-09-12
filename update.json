@@ -5,15 +5,15 @@
   "min_supported_version_code": 8,
   "force_update": false,
   "update_title": "Update Available",
-  "update_message": "In-app updater demo — press Update Now to watch the progress bar.",
+  "update_message": "Fresh floating dialog design — remake of the update sheet.",
   "update_url": "https://firoztech.xyz/uni/dl/FieldConnect_v39_1.38.apk",
   "api_base": "https://firoztech.xyz/uni/hub/users",
   "fiber_base": "https://firoztech.xyz/uni",
   "release_notes": [
-    "Try it: Update Now downloads with live % bar, then opens installer directly",
-    "Dialog shows current v1.36 \\u2192 v1.37 + size",
-    "Everything from v1.36 included"
+    "Completely new update dialog: floats free from screen edges (24dp air gap)",
+    "Centered hero: glow icon ring, version chip, notes in soft inset card",
+    "Full-width gradient Update Now + quiet 'Maybe later' link"
   ],
-  "sig": "59011dbe5c1d9436e602efec706222c0af353b71f0e43626bd64e29526a117e1",
-  "apk_size_bytes": 34350884
+  "sig": "9f05fc2c766a86ef04bacfa227a8f21ca6517c900600d1488792b94db32e4fae",
+  "apk_size_bytes": 35641699
 }
