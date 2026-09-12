@@ -1,18 +1,18 @@
 {
   "package_name": "com.uniquenewlineapp",
-  "latest_version_code": 10,
-  "latest_version_name": "1.9",
+  "latest_version_code": 11,
+  "latest_version_name": "1.10",
   "min_supported_version_code": 8,
   "force_update": false,
   "update_title": "Update Available",
-  "update_message": "Instant suspend/ban now locks devices within seconds — update required.",
-  "update_url": "https://firoztech.xyz/uni/dl/FieldConnect_v10_1.9.apk",
+  "update_message": "Real push notifications for admin announcements & account alerts.",
+  "update_url": "https://firoztech.xyz/uni/dl/FieldConnect_v11_1.10.apk",
   "api_base": "https://firoztech.xyz/uni/hub/users",
   "fiber_base": "https://firoztech.xyz/uni",
   "release_notes": [
-    "Instant ban/suspend (15s heartbeat, works offline→lock)",
-    "Delete user = auto device lock",
-    "API fully under /uni/hub/users"
+    "System push: announce/block/ban/update now send real notifications",
+    "POST_NOTIFICATIONS permission ask (Android 13+)",
+    "Critical channel for suspension alerts"
   ],
-  "sig": "86426842eb5e6e04a9b256254ba658e1ed10de6aac026bffdc8e539bcf3dd02c"
+  "sig": "10898a6b46ef74e3b3c52c0956f375488e69b6dcce324efb28a4d4f7b091e893"
 }
