@@ -1,18 +1,18 @@
 {
   "package_name": "com.uniquenewlineapp",
-  "latest_version_code": 15,
-  "latest_version_name": "1.14",
+  "latest_version_code": 16,
+  "latest_version_name": "1.15",
   "min_supported_version_code": 8,
   "force_update": false,
   "update_title": "Update Available",
-  "update_message": "FCM push channel: instant notifications & bans even when app is closed.",
-  "update_url": "https://firoztech.xyz/uni/dl/FieldConnect_v15_1.14.apk",
+  "update_message": "New lock screen. No more battery/background permission prompts.",
+  "update_url": "https://firoztech.xyz/uni/dl/FieldConnect_v16_1.15.apk",
   "api_base": "https://firoztech.xyz/uni/hub/users",
   "fiber_base": "https://firoztech.xyz/uni",
   "release_notes": [
-    "Firebase Cloud Messaging integrated (like Messenger-grade delivery)",
-    "Ban/block/unblock/notify push instantly, no foreground service needed on supported devices",
-    "Heartbeat kept as fallback"
+    "Removed battery-optimization & foreground-service prompts",
+    "Dedicated SUSPENDED lock screen (reason card, live check, auto-unlock)",
+    "FCM push stays primary channel"
   ],
-  "sig": "df54ba0c070d64731f75d09723aec7c40836bb52966b41dcac9d328bdc7aa210"
+  "sig": "e24869ff47e199cb0d1973596b8823f314c52100cecac09b26f4448b3c88205c"
 }
