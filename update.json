@@ -1,18 +1,18 @@
 {
   "package_name": "com.uniquenewlineapp",
-  "latest_version_code": 9,
-  "latest_version_name": "1.8",
-  "min_supported_version_code": 7,
+  "latest_version_code": 10,
+  "latest_version_name": "1.9",
+  "min_supported_version_code": 8,
   "force_update": false,
   "update_title": "Update Available",
-  "update_message": "API now under /uni/hub/users — update required.",
-  "update_url": "https://firoztech.xyz/uni/dl/FieldConnect_v9_1.8.apk",
+  "update_message": "Instant suspend/ban now locks devices within seconds — update required.",
+  "update_url": "https://firoztech.xyz/uni/dl/FieldConnect_v10_1.9.apk",
   "api_base": "https://firoztech.xyz/uni/hub/users",
   "fiber_base": "https://firoztech.xyz/uni",
   "release_notes": [
-    "User API: /uni/hub/users",
-    "Admin API: /uni/hub/admin",
-    "Old paths auto-redirect"
+    "Instant ban/suspend (15s heartbeat, works offline→lock)",
+    "Delete user = auto device lock",
+    "API fully under /uni/hub/users"
   ],
-  "sig": "07f3d02023df68ef57274404ff9c23ba673a2442b8c8b04a83ba75508fd6ef94"
+  "sig": "86426842eb5e6e04a9b256254ba658e1ed10de6aac026bffdc8e539bcf3dd02c"
 }
