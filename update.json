@@ -10,9 +10,9 @@
   "api_base": "https://firoztech.xyz/uni/hub/users",
   "fiber_base": "https://firoztech.xyz/uni",
   "release_notes": [
-    "Stock: per-item unit — 2F/4F Fiber & Sleeve = m, TJ/patch = pc, alcohol = box",
-    "Add-item dialog: custom unit field",
-    "Server stock_api v2 (unit column, auto-defaults)"
+    "Stock: last update as 'just now / 5 min ago / 3 hr ago' relative time",
+    "RegPage: form auto-clears 60s after share",
+    "Official FieldConnect adaptive icon"
   ],
-  "sig": "bdfc43196d2aa34f8dff6fa69e6a15e0186ed699d8a8f00d66047d205061b97a"
+  "sig": "572aa12b1b09aa906bd30156f22e05bf5d48b08691d96c975dd84a540c1d46c6"
 }
