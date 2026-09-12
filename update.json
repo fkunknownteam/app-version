@@ -1,18 +1,18 @@
 {
   "package_name": "com.uniquenewlineapp",
-  "latest_version_code": 22,
-  "latest_version_name": "1.21",
+  "latest_version_code": 23,
+  "latest_version_name": "1.22",
   "min_supported_version_code": 8,
   "force_update": false,
   "update_title": "Update Available",
-  "update_message": "Official FieldConnect logo installed — adaptive + circle-mask safe.",
-  "update_url": "https://firoztech.xyz/uni/dl/FieldConnect_v22_1.21.apk",
+  "update_message": "New-line form now auto-clears 60s after share.",
+  "update_url": "https://firoztech.xyz/uni/dl/FieldConnect_v23_1.22.apk",
   "api_base": "https://firoztech.xyz/uni/hub/users",
   "fiber_base": "https://firoztech.xyz/uni",
   "release_notes": [
-    "Real logo assets (from All_Logos pack) wired: adaptive fg/bg layers",
-    "Circle-mask tested: amber node + glow fully inside",
-    "Splash reveal geometry matches the spec mark"
+    "RegPage: form auto-clears after 60s editing window",
+    "Timer survives page-close: overdue clear fires on next open",
+    "✓Complete in Reports still clears instantly"
   ],
-  "sig": "628fb982d851112e6ae108ff677952c1f13092cd3a42209f22488ebab8b572f5"
+  "sig": "b8d0609070dbccabba1543ffce87388ed820e2336b2af87838d97ba442b19189"
 }
