@@ -1,17 +1,20 @@
 {
   "package_name": "com.uniquenewlineapp",
-  "latest_version_code": 31,
-  "latest_version_name": "1.30",
+  "latest_version_code": 32,
+  "latest_version_name": "1.31",
   "min_supported_version_code": 8,
   "force_update": false,
   "update_title": "Update Available",
-  "update_message": "Offline monitor: auto-scrolls to top when a new user goes offline.",
-  "update_url": "https://firoztech.xyz/uni/dl/FieldConnect_v31_1.30.apk",
+  "update_message": "Offline monitor upgrade: NEW OFFLINE badge countdown, haptic, toast, stat pop.",
+  "update_url": "https://firoztech.xyz/uni/dl/FieldConnect_v32_1.31.apk",
   "api_base": "https://firoztech.xyz/uni/hub/users",
   "fiber_base": "https://firoztech.xyz/uni",
   "release_notes": [
-    "Offline users: new offline arrival now auto-scrolls the list to top so the latest is always visible (replaces the pill idea)",
+    "New offline row now shows '● NEW OFFLINE · 10s' countdown badge for 10 seconds",
+    "Auto-scroll to top keeps; row lands with scale pop",
+    "Haptic buzz + toast naming who went offline",
+    "TOTAL OFFLINE number pops red when count rises",
     "BACK ONLINE 5s green pulse kept"
   ],
-  "sig": "9ba731ec6f852d6e864121233b237b7bb05be52f601a4c60d735bb83f05edb21"
+  "sig": "96ce8bdd29300a9fad13c7342a0d4fbe7cf6f055deeb71ea0aac9795177cda08"
 }
