@@ -1,20 +1,19 @@
 {
   "package_name": "com.uniquenewlineapp",
-  "latest_version_code": 49,
-  "latest_version_name": "1.48",
+  "latest_version_code": 50,
+  "latest_version_name": "1.49",
   "min_supported_version_code": 8,
   "force_update": false,
   "update_title": "Update Available",
-  "update_message": "NID auto-crop trained on 54 real BD cards (old laminated + smart): 0/54 content loss.",
-  "update_url": "https://firoztech.xyz/uni/dl/FieldConnect_v49_1.48.apk",
+  "update_message": "Crop screen now auto-trims: open cropper → card pre-cropped, AUTO button re-runs.",
+  "update_url": "https://firoztech.xyz/uni/dl/FieldConnect_v50_1.49.apk",
   "api_base": "https://firoztech.xyz/uni/hub/users",
   "fiber_base": "https://firoztech.xyz/uni",
   "release_notes": [
-    "Detector calibrated & validated on 54 sample NIDs (old paper-laminated + smart cards, front/back)",
-    "New rule: trim only uniform dark margins (max 20%/side) + gentle deskew 2.5-12° — frame-filling cards kept 100%",
-    "Zero card content ever cut; combined halves exactly 50/50",
-    "Server upload path uses the same calibrated trim"
+    "CustomCrop (NID crop screen): calibrated v3 auto-crop applies on open + new AUTO button",
+    "NidCrop shared utility: same zero-loss algorithm in cropper, profile page & server",
+    "Fine-tune manually as before, then CONFIRM"
   ],
-  "sig": "af0e1a221ce32ec9793c19e77ae77816d175f1281571c5edb3f16e67fe49c22d",
-  "apk_size_bytes": 34370418
+  "sig": "3f9302e4031260098420b7636d5926aa5a93dfbd362623a82dc90f96d147cf63",
+  "apk_size_bytes": 34370411
 }
