@@ -1,19 +1,19 @@
 {
   "package_name": "com.uniquenewlineapp",
-  "latest_version_code": 50,
-  "latest_version_name": "1.49",
+  "latest_version_code": 51,
+  "latest_version_name": "1.50",
   "min_supported_version_code": 8,
   "force_update": false,
   "update_title": "Update Available",
-  "update_message": "Crop screen now auto-trims: open cropper → card pre-cropped, AUTO button re-runs.",
-  "update_url": "https://firoztech.xyz/uni/dl/FieldConnect_v50_1.49.apk",
+  "update_message": "Crop screen redesigned: brand header, floating action bar, teal crop frame.",
+  "update_url": "https://firoztech.xyz/uni/dl/FieldConnect_v51_1.50.apk",
   "api_base": "https://firoztech.xyz/uni/hub/users",
   "fiber_base": "https://firoztech.xyz/uni",
   "release_notes": [
-    "CustomCrop (NID crop screen): calibrated v3 auto-crop applies on open + new AUTO button",
-    "NidCrop shared utility: same zero-loss algorithm in cropper, profile page & server",
-    "Fine-tune manually as before, then CONFIRM"
+    "CustomCrop rebuilt in app style: gradient header + back + size chip, white rounded action dock (↻90° / AUTO / gradient CONFIRM)",
+    "Teal rounded crop frame with 'Card inside frame' hint; auto-crop toast now a floating chip",
+    "Same calibrated v3 zero-loss crop engine"
   ],
-  "sig": "3f9302e4031260098420b7636d5926aa5a93dfbd362623a82dc90f96d147cf63",
-  "apk_size_bytes": 34370411
+  "sig": "c5301597e58a0860ede8a953663eaa332e899a0c66f5e0c6ab0fa7e543e78eb3",
+  "apk_size_bytes": 34371058
 }
