@@ -1,19 +1,19 @@
 {
   "package_name": "com.uniquenewlineapp",
-  "latest_version_code": 45,
-  "latest_version_name": "1.44",
+  "latest_version_code": 46,
+  "latest_version_name": "1.45",
   "min_supported_version_code": 8,
   "force_update": false,
   "update_title": "Update Available",
-  "update_message": "Auto-trim: black borders cut, card-only combined NID to billing.",
-  "update_url": "https://firoztech.xyz/uni/dl/FieldConnect_v45_1.44.apk",
+  "update_message": "App update: card-only NID everywhere + server auto-crop.",
+  "update_url": "https://firoztech.xyz/uni/dl/FieldConnect_v46_1.45.apk",
   "api_base": "https://firoztech.xyz/uni/hub/users",
   "fiber_base": "https://firoztech.xyz/uni",
   "release_notes": [
-    "NID capture now trims dark background/letterbox automatically (3 layers: detect, combine, pre-upload)",
-    "Both sides combined into ONE clean card image and pushed to billing Documents>NID",
-    "Profile Update redesign included"
+    "Profile Update: NID photos auto-cropped to card only (live view + combined + upload)",
+    "Server also trims dark borders on any upload — panel always gets clean card",
+    "Redesigned Profile Update screen (hero card, labeled slots)"
   ],
-  "sig": "bba7cbd9837bcbeda0292b1eee3a6b3d540ef89ad3176f9c26b5229886528896",
-  "apk_size_bytes": 34370426
+  "sig": "0790cc04e6c9fbc1b9cd86439a915e6b0af689de9fbd9dbad867e0e2289eec7d",
+  "apk_size_bytes": 34370429
 }
