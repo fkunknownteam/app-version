@@ -1,18 +1,20 @@
 {
   "package_name": "com.uniquenewlineapp",
-  "latest_version_code": 48,
-  "latest_version_name": "1.47",
+  "latest_version_code": 49,
+  "latest_version_name": "1.48",
   "min_supported_version_code": 8,
   "force_update": false,
   "update_title": "Update Available",
-  "update_message": "Self-heal crop: OLD saved NID photos now auto-trim on the spot in Profile Update.",
-  "update_url": "https://firoztech.xyz/uni/dl/FieldConnect_v48_1.47.apk",
+  "update_message": "NID auto-crop trained on 54 real BD cards (old laminated + smart): 0/54 content loss.",
+  "update_url": "https://firoztech.xyz/uni/dl/FieldConnect_v49_1.48.apk",
   "api_base": "https://firoztech.xyz/uni/hub/users",
   "fiber_base": "https://firoztech.xyz/uni",
   "release_notes": [
-    "Previously only new captures were trimmed; existing black-border photos reloaded from storage showed junk",
-    "Now on page open, front/back files are trimmed & rewritten automatically, combined rebuilt clean"
+    "Detector calibrated & validated on 54 sample NIDs (old paper-laminated + smart cards, front/back)",
+    "New rule: trim only uniform dark margins (max 20%/side) + gentle deskew 2.5-12° — frame-filling cards kept 100%",
+    "Zero card content ever cut; combined halves exactly 50/50",
+    "Server upload path uses the same calibrated trim"
   ],
-  "sig": "ac6bb0a6534c1cd9d145749bccd12191b66929898b6b02cffbaa04e648ccb80a",
-  "apk_size_bytes": 34370422
+  "sig": "af0e1a221ce32ec9793c19e77ae77816d175f1281571c5edb3f16e67fe49c22d",
+  "apk_size_bytes": 34370418
 }
