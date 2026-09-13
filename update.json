@@ -1,18 +1,18 @@
 {
   "package_name": "com.uniquenewlineapp",
-  "latest_version_code": 47,
-  "latest_version_name": "1.46",
+  "latest_version_code": 48,
+  "latest_version_name": "1.47",
   "min_supported_version_code": 8,
   "force_update": false,
   "update_title": "Update Available",
-  "update_message": "NID combined black-bar fix: white canvas + equal-width stack — exactly the clean card look.",
-  "update_url": "https://firoztech.xyz/uni/dl/FieldConnect_v47_1.46.apk",
+  "update_message": "Self-heal crop: OLD saved NID photos now auto-trim on the spot in Profile Update.",
+  "update_url": "https://firoztech.xyz/uni/dl/FieldConnect_v48_1.47.apk",
   "api_base": "https://firoztech.xyz/uni/hub/users",
   "fiber_base": "https://firoztech.xyz/uni",
   "release_notes": [
-    "Fixed: combined NID had black side bars (transparent canvas + width mismatch)",
-    "Both sides scaled to same width and stacked seamlessly on white"
+    "Previously only new captures were trimmed; existing black-border photos reloaded from storage showed junk",
+    "Now on page open, front/back files are trimmed & rewritten automatically, combined rebuilt clean"
   ],
-  "sig": "c665e3ecb51304d0ecee1ff2a4ade39a668a82c2b5934088fa29c68e6b4f5673",
-  "apk_size_bytes": 34370435
+  "sig": "ac6bb0a6534c1cd9d145749bccd12191b66929898b6b02cffbaa04e648ccb80a",
+  "apk_size_bytes": 34370422
 }
