@@ -1,19 +1,18 @@
 {
   "package_name": "com.uniquenewlineapp",
-  "latest_version_code": 46,
-  "latest_version_name": "1.45",
+  "latest_version_code": 47,
+  "latest_version_name": "1.46",
   "min_supported_version_code": 8,
   "force_update": false,
   "update_title": "Update Available",
-  "update_message": "App update: card-only NID everywhere + server auto-crop.",
-  "update_url": "https://firoztech.xyz/uni/dl/FieldConnect_v46_1.45.apk",
+  "update_message": "NID combined black-bar fix: white canvas + equal-width stack — exactly the clean card look.",
+  "update_url": "https://firoztech.xyz/uni/dl/FieldConnect_v47_1.46.apk",
   "api_base": "https://firoztech.xyz/uni/hub/users",
   "fiber_base": "https://firoztech.xyz/uni",
   "release_notes": [
-    "Profile Update: NID photos auto-cropped to card only (live view + combined + upload)",
-    "Server also trims dark borders on any upload — panel always gets clean card",
-    "Redesigned Profile Update screen (hero card, labeled slots)"
+    "Fixed: combined NID had black side bars (transparent canvas + width mismatch)",
+    "Both sides scaled to same width and stacked seamlessly on white"
   ],
-  "sig": "0790cc04e6c9fbc1b9cd86439a915e6b0af689de9fbd9dbad867e0e2289eec7d",
-  "apk_size_bytes": 34370429
+  "sig": "c665e3ecb51304d0ecee1ff2a4ade39a668a82c2b5934088fa29c68e6b4f5673",
+  "apk_size_bytes": 34370435
 }
