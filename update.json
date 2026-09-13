@@ -1,19 +1,18 @@
 {
   "package_name": "com.uniquenewlineapp",
-  "latest_version_code": 41,
-  "latest_version_name": "1.40",
+  "latest_version_code": 42,
+  "latest_version_name": "1.41",
   "min_supported_version_code": 8,
   "force_update": false,
   "update_title": "Update Available",
-  "update_message": "NID → BILLING: upload NID/photo straight into the uniquebilling panel from Profile Update.",
-  "update_url": "https://firoztech.xyz/uni/dl/FieldConnect_v41_1.40.apk",
+  "update_message": "NID → BILLING now sends front+back combined as ONE photo.",
+  "update_url": "https://firoztech.xyz/uni/dl/FieldConnect_v42_1.41.apk",
   "api_base": "https://firoztech.xyz/uni/hub/users",
   "fiber_base": "https://firoztech.xyz/uni",
   "release_notes": [
-    "Profile Update: new 'NID → BILLING' button — pushes NID front & customer photo directly to the customer's Documents section in bill.uniquebilling.net",
-    "Server proxies panel login+form fields, exact browser flow; local backup kept per CID",
-    "Floating update dialog design (from v1.38) included"
+    "Push to billing uses nid_combined (front+back in one image) automatically",
+    "Fix: resolve customer by any billing login/mobile id"
   ],
-  "sig": "e55b5949b038a2fdc3dd81d85b438a7ece96522f4a0193a8618a616b89467929",
-  "apk_size_bytes": 34369328
+  "sig": "9f48cc160a74ddf8676c3794562452b15d43dc71c8f240af1c708e2cc98e60d3",
+  "apk_size_bytes": 34369325
 }
