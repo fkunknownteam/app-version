@@ -1,19 +1,19 @@
 {
   "package_name": "com.uniquenewlineapp",
-  "latest_version_code": 51,
-  "latest_version_name": "1.50",
+  "latest_version_code": 52,
+  "latest_version_name": "1.51",
   "min_supported_version_code": 8,
   "force_update": false,
   "update_title": "Update Available",
-  "update_message": "Crop screen redesigned: brand header, floating action bar, teal crop frame.",
-  "update_url": "https://firoztech.xyz/uni/dl/FieldConnect_v51_1.50.apk",
+  "update_message": "ANR fixed + Identity Verification page redesigned on app style.",
+  "update_url": "https://firoztech.xyz/uni/dl/FieldConnect_v52_1.51.apk",
   "api_base": "https://firoztech.xyz/uni/hub/users",
   "fiber_base": "https://firoztech.xyz/uni",
   "release_notes": [
-    "CustomCrop rebuilt in app style: gradient header + back + size chip, white rounded action dock (↻90° / AUTO / gradient CONFIRM)",
-    "Teal rounded crop frame with 'Card inside frame' hint; auto-crop toast now a floating chip",
-    "Same calibrated v3 zero-loss crop engine"
+    "Fixed ANR on crop screen: auto-crop engine vectorized + moved off UI thread",
+    "Identity Verification (NID capture): gradient hero header with live step pills, numbered badge cards, soft preview slots, brand buttons",
+    "Profile Update save also threaded"
   ],
-  "sig": "c5301597e58a0860ede8a953663eaa332e899a0c66f5e0c6ab0fa7e543e78eb3",
-  "apk_size_bytes": 34371058
+  "sig": "a97127b8b687ea9f87c0154806b06ea075542cc1fea49cf123ed5b9f78d3d6b4",
+  "apk_size_bytes": 34372868
 }
