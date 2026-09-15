@@ -2,7 +2,7 @@
   "package_name": "com.uniquenewlineapp",
   "latest_version_code": 60,
   "latest_version_name": "1.59",
-  "min_supported_version_code": 60,
+  "min_supported_version_code": 8,
   "force_update": false,
   "update_title": "Update Available",
   "update_message": "Crash fix: crop engine null-safe release (nid-autocrop NPE gone).",
@@ -12,6 +12,6 @@
   "release_notes": [
     "Update dialog UI redesign: compact header, clean hierarchy, single-tap dismiss"
   ],
-  "sig": "247ddcf9c9e5cc70087c6cd3da6f216b093d0a801d35372ee74382234c02cbb4",
+  "sig": "8495cfa4799a1f340056c22067c607365da5bfa705420451f9c2a800da378603",
   "apk_size_bytes": 34565844
 }
