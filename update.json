@@ -1,19 +1,24 @@
 {
   "package_name": "com.uniquenewlineapp",
   "latest_version_code": 61,
-  "latest_version_name": "1.60-preview",
-  "min_supported_version_code": 8,
+  "latest_version_name": "1.60",
+  "min_supported_version_code": 61,
   "force_update": false,
   "update_title": "Update Available",
   "update_message": "Dialog UI preview — tap Maybe later to close (one tap now).",
-  "update_url": "https://firoztech.xyz/uni/dl/FieldConnect_v60_1.59.apk",
+  "update_url": "https://firoztech.xyz/uni/dl/FieldConnect_v61_1.60.apk",
   "api_base": "https://firoztech.xyz/uni/hub/users",
   "fiber_base": "https://firoztech.xyz/uni",
   "release_notes": [
-    "New compact dialog design",
-    "Single-tap Maybe later",
-    "AUTO aligns tilted NID cards"
+    "Fiber map live status colors: green online / grey offline / red disabled",
+    "Legend added, billing auto-sync every 5 min",
+    "Straight bold fiber lines, duplicate lines removed",
+    "New FC brand pole + home icons",
+    "Profile crash fixed (OpenCV/OOM)",
+    "Profile page: photo upload only (NID docs hidden)",
+    "Profile auto-fills last submitted line number",
+    "Update dialog redesign"
   ],
-  "sig": "08035e043efa1132bf907ca7f0ae5be1a2c0d84594eb0d24f8dea7eb594a41fd",
+  "sig": "90571b73ac5b6b6078c7ab92579e707b384e5e29018578dd1b80bbd81af5e036",
   "apk_size_bytes": 34565844
 }
