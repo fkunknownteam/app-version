@@ -1,17 +1,19 @@
 {
   "package_name": "com.uniquenewlineapp",
-  "latest_version_code": 60,
-  "latest_version_name": "1.59",
+  "latest_version_code": 61,
+  "latest_version_name": "1.60-preview",
   "min_supported_version_code": 8,
   "force_update": false,
   "update_title": "Update Available",
-  "update_message": "Crash fix: crop engine null-safe release (nid-autocrop NPE gone).",
+  "update_message": "Dialog UI preview — tap Maybe later to close (one tap now).",
   "update_url": "https://firoztech.xyz/uni/dl/FieldConnect_v60_1.59.apk",
   "api_base": "https://firoztech.xyz/uni/hub/users",
   "fiber_base": "https://firoztech.xyz/uni",
   "release_notes": [
-    "Update dialog UI redesign: compact header, clean hierarchy, single-tap dismiss"
+    "New compact dialog design",
+    "Single-tap Maybe later",
+    "AUTO aligns tilted NID cards"
   ],
-  "sig": "8495cfa4799a1f340056c22067c607365da5bfa705420451f9c2a800da378603",
+  "sig": "08035e043efa1132bf907ca7f0ae5be1a2c0d84594eb0d24f8dea7eb594a41fd",
   "apk_size_bytes": 34565844
 }
