@@ -2,7 +2,7 @@
   "package_name": "com.uniquenewlineapp",
   "latest_version_code": 62,
   "latest_version_name": "1.61",
-  "min_supported_version_code": 62,
+  "min_supported_version_code": 8,
   "force_update": false,
   "update_title": "Update Available",
   "update_message": "Dialog UI preview — tap Maybe later to close (one tap now).",
@@ -16,6 +16,6 @@
     "Profile crash fixed, profile = photo only",
     "Status colors: green online, grey offline, red disabled"
   ],
-  "sig": "16e8052776682d8ada7b1ad1a25ca09c96ebf5f0b78b5dab069459a4faf74606",
-  "apk_size_bytes": 34565844
+  "apk_size_bytes": 34565844,
+  "sig": "439229889e65888b842e44417c9576fc3a0c40020678636e02271307d7b25ccc"
 }
