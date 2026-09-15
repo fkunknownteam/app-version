@@ -1,18 +1,19 @@
 {
   "package_name": "com.uniquenewlineapp",
-  "latest_version_code": 57,
-  "latest_version_name": "1.56",
-  "min_supported_version_code": 8,
+  "latest_version_code": 59,
+  "latest_version_name": "1.58",
+  "min_supported_version_code": 59,
   "force_update": false,
   "update_title": "Update Available",
   "update_message": "Crash fix: crop engine null-safe release (nid-autocrop NPE gone).",
-  "update_url": "https://firoztech.xyz/uni/dl/FieldConnect_v57_1.56.apk",
+  "update_url": "https://firoztech.xyz/uni/dl/FieldConnect_v59_1.58.apk",
   "api_base": "https://firoztech.xyz/uni/hub/users",
   "fiber_base": "https://firoztech.xyz/uni",
   "release_notes": [
-    "Fixed FATAL NPE in auto-crop thread when the trimmed Mat was already released",
-    "Inner printed-frame crop (v1.55) kept — crop now starts INSIDE the card's black border line"
+    "Update dialog double-click fix (single dialog, one tap dismiss)",
+    "AUTO now straightens tilted cards and snaps into the 85.6x54 box",
+    "Inner black-frame crop kept"
   ],
-  "sig": "fb22ac576c9d76530d06770de7cdd31c074cff158a159bcab18dd34eade9ee8a",
+  "sig": "3edbadb3602101f9070345f5df51b33ecc56954bf018c7d93ec844800e66dad8",
   "apk_size_bytes": 34565844
 }
